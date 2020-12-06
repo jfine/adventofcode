@@ -8,4 +8,4 @@ input.each do |group|
   yes_counts << yeses_counts.values.count(group_size)
 end
 
-pp "There were #{yes_counts.size} groups and #{yes_counts.inject(:+)} matching yeses}"
+pp "There were #{yes_counts.size} groups and #{yes_counts.inject(:+)} matching yeses"
